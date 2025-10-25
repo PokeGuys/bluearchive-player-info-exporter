@@ -1,3 +1,6 @@
+> [!WARNING]
+> A recent Blue Archive update now wraps the AES session key with RSA and uses that AES key to encrypt server responses. Because the AES key is sent RSA-encrypted, mitmproxy can no longer decrypt responses to extract the player information, so this tool no longer works.
+
 # Buruaka Player Information Exporter
 
 This is a tool to export player information via mitmproxy WireGuard mode.
